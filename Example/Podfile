@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MomoiOSSwiftSdkV2_Example' do
+  pod 'MomoiOSSwiftSdkV2', :path => '../'
+
+  target 'MomoiOSSwiftSdkV2_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
