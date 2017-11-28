@@ -28,10 +28,10 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'MomoiOSSwiftSdkV2/Classes/**/*'
+  s.source_files = 'MomoiOSSwiftSdkV2/**/*'
 
   s.resource_bundles = {
-     'MomoiOSSwiftSdkV2' => ['MomoiOSSwiftSdkV2/Assets/*.png']
+     'MomoiOSSwiftSdkV2' => ['MomoiOSSwiftSdkV2/Resources/*.png']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
