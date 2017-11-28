@@ -14,6 +14,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		6E9037C6FDE80E547AC3111A /* Pods_MomoiOSSwiftSdkV2_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B35F774EC29C0AFC7E64DAFE /* Pods_MomoiOSSwiftSdkV2_Example.framework */; };
+		87CBF72C1FCD11F100964665 /* MomoiOSSwiftSdkV2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87CBF72D1FCD11F100964665 /* MomoiOSSwiftSdkV2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,11 +39,12 @@
 		607FACE51AFB9204008FA782 /* MomoiOSSwiftSdkV2_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MomoiOSSwiftSdkV2_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7E02BBB4C41AA61B80885D0B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7E02BBB4C41AA61B80885D0B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		87CBF72D1FCD11F100964665 /* MomoiOSSwiftSdkV2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MomoiOSSwiftSdkV2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B35F774EC29C0AFC7E64DAFE /* Pods_MomoiOSSwiftSdkV2_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MomoiOSSwiftSdkV2_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B8B8D7A7983B9DD311D2B7A3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B8B8D7A7983B9DD311D2B7A3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B909D5D039CD561019140BDC /* Pods_MomoiOSSwiftSdkV2_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MomoiOSSwiftSdkV2_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB7919146794880EA012770B /* MomoiOSSwiftSdkV2.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MomoiOSSwiftSdkV2.podspec; path = ../MomoiOSSwiftSdkV2.podspec; sourceTree = "<group>"; };
+		CB7919146794880EA012770B /* MomoiOSSwiftSdkV2.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MomoiOSSwiftSdkV2.podspec; path = ../MomoiOSSwiftSdkV2.podspec; sourceTree = "<group>"; };
 		F4C0A1449F24CA3331CD059E /* Pods-MomoiOSSwiftSdkV2_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MomoiOSSwiftSdkV2_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MomoiOSSwiftSdkV2_Example/Pods-MomoiOSSwiftSdkV2_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -51,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87CBF72C1FCD11F100964665 /* MomoiOSSwiftSdkV2.framework in Frameworks */,
 				6E9037C6FDE80E547AC3111A /* Pods_MomoiOSSwiftSdkV2_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +141,7 @@
 		B52BCE3A3931B24A1ABBE721 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				87CBF72D1FCD11F100964665 /* MomoiOSSwiftSdkV2.framework */,
 				B35F774EC29C0AFC7E64DAFE /* Pods_MomoiOSSwiftSdkV2_Example.framework */,
 				B909D5D039CD561019140BDC /* Pods_MomoiOSSwiftSdkV2_Tests.framework */,
 			);
