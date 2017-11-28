@@ -7,16 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01ABFE93ACF19C8B684F219EC19F46FB /* MoMoPayment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF51A8758C94C062B00B8D14DAB94FBD /* MoMoPayment.swift */; };
+		01D91B5225A33182E43105BF3F7CA00C /* momo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EF721C7AD2E7F475772D20C797711C9 /* momo.png */; };
 		0750E12A2539DFDDED575803176BC271 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		0D7C72EC26542DD1FE136D6ECD0B3A86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		183F350DC28D00702F1B82F74EA273B4 /* Pods-MomoiOSSwiftSdkV2_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5498458F7BE62F91B50CD9A53E92B8 /* Pods-MomoiOSSwiftSdkV2_Tests-dummy.m */; };
-		3145DC04CC09EA3C401F9FB27798A010 /* MomoiOSSwiftSdkV2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D10235DE4EC2FB174F6DBC469CF021F2 /* MomoiOSSwiftSdkV2-dummy.m */; };
-		53E3B28D7BE2AD7C7450B6ECBC64D723 /* MomoiOSSwiftSdkV2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52415DBB2B3883FBA8193229C64DEF6B /* MomoiOSSwiftSdkV2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9F06128869B57ABBE9B90369F3C1D167 /* Pods-MomoiOSSwiftSdkV2_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C99CD1EC23A93890E0DFF11D5AD13FD8 /* Pods-MomoiOSSwiftSdkV2_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C39F81C325ADCCAE199CB265077A19EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		C94A1E83DAAB7FA8A15317206B0B6E7E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B73CE138EB7AD43E8309D4694508EBD /* ReplaceMe.swift */; };
-		D8C1B1EF088C8CEF4D23BD5812F13237 /* Pods-MomoiOSSwiftSdkV2_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 31090F0E9342DE81AC7D654A39E99AA8 /* Pods-MomoiOSSwiftSdkV2_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F2EB30DA8C8675453C4941BBF5CCC974 /* Pods-MomoiOSSwiftSdkV2_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF97D1FA38D3A1F14DB1F5D1F4E82AA6 /* Pods-MomoiOSSwiftSdkV2_Example-dummy.m */; };
+		128F8ED2AF76887DD3156348CB1571B2 /* momo_highlights.png in Resources */ = {isa = PBXBuildFile; fileRef = 40F85677F1B9020D44E071E54FF6B4C9 /* momo_highlights.png */; };
+		2802CC8C81289E25CC4F95C83DBC733D /* MomoiOSSwiftSdkV2.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4BD6C77B3089DA745C476D09293349E1 /* MomoiOSSwiftSdkV2.bundle */; };
+		2C6E2C2A6C1641AEB2F573ED19CDD892 /* MoMoConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBAF40E2EDEF3A82754E2EDA9948C33 /* MoMoConfig.swift */; };
+		5723203F4EA8FC9C0DC6DFF8F946CF4C /* momo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF8A0C47CBC4269C410ED006CBE6C718 /* momo@2x.png */; };
+		64093B8E205127B0E61386366724447E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		841B1C7DBBD5FD4EA917671BD4542EBC /* MomoiOSSwiftSdkV2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BDA2FAEAFE574084E7DE7EFE1EFF9B7A /* MomoiOSSwiftSdkV2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE7B62A369820504C37F24FE5BCDBEC3 /* momo_highlights@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA8BB4358FBBF444E455D5467FFE3BCB /* momo_highlights@2x.png */; };
+		D8C1B1EF088C8CEF4D23BD5812F13237 /* Pods-MomoiOSSwiftSdkV2_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2356F1EC8DEE35B9B13E4AE0FD1F6670 /* Pods-MomoiOSSwiftSdkV2_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D93CBADB7096F346C3A454BAC96F59BE /* MomoiOSSwiftSdkV2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 691D26CC23EF420592300052B1C5924B /* MomoiOSSwiftSdkV2-dummy.m */; };
+		F2EB30DA8C8675453C4941BBF5CCC974 /* Pods-MomoiOSSwiftSdkV2_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78665CC340013804A3E9CB719F165C1C /* Pods-MomoiOSSwiftSdkV2_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,44 +27,47 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 80E9A296AC84127143F16E72595ABDCB;
+			remoteGlobalIDString = 56A2E3A7FEC7EE53C8CB8C3EF57C86A2;
 			remoteInfo = MomoiOSSwiftSdkV2;
+		};
+		7344E2BBE1312BA2C6935F1DF0C2BFC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A32CD992EF882AD6F77C602D0371607;
+			remoteInfo = "MomoiOSSwiftSdkV2-MomoiOSSwiftSdkV2";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06D2F6613F3A8475AEB4E0D47C8B4C84 /* Pods-MomoiOSSwiftSdkV2_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MomoiOSSwiftSdkV2_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		1862F6AC88A5AB3F8E4A16F06980F97E /* Pods-MomoiOSSwiftSdkV2_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MomoiOSSwiftSdkV2_Tests.modulemap"; sourceTree = "<group>"; };
-		18C197B7F4008D494A58E4391011F38D /* MomoiOSSwiftSdkV2.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MomoiOSSwiftSdkV2.xcconfig; sourceTree = "<group>"; };
-		31090F0E9342DE81AC7D654A39E99AA8 /* Pods-MomoiOSSwiftSdkV2_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MomoiOSSwiftSdkV2_Example-umbrella.h"; sourceTree = "<group>"; };
-		34795C65AC4A2F922ABD3946605D05DC /* Pods-MomoiOSSwiftSdkV2_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MomoiOSSwiftSdkV2_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		435F995E777CD5C4716F38F347B41BB9 /* MomoiOSSwiftSdkV2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MomoiOSSwiftSdkV2.modulemap; sourceTree = "<group>"; };
-		48F17B02724AAB440717750484D594B8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		52415DBB2B3883FBA8193229C64DEF6B /* MomoiOSSwiftSdkV2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MomoiOSSwiftSdkV2-umbrella.h"; sourceTree = "<group>"; };
-		5D5498458F7BE62F91B50CD9A53E92B8 /* Pods-MomoiOSSwiftSdkV2_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MomoiOSSwiftSdkV2_Tests-dummy.m"; sourceTree = "<group>"; };
+		10710F419B3F0CEC54EAFA9AD4E96BA5 /* MomoiOSSwiftSdkV2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MomoiOSSwiftSdkV2.framework; path = MomoiOSSwiftSdkV2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1507C7AB523A06140AD1A6E6D9668678 /* Pods-MomoiOSSwiftSdkV2_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MomoiOSSwiftSdkV2_Example-frameworks.sh"; sourceTree = "<group>"; };
+		2356F1EC8DEE35B9B13E4AE0FD1F6670 /* Pods-MomoiOSSwiftSdkV2_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MomoiOSSwiftSdkV2_Example-umbrella.h"; sourceTree = "<group>"; };
+		3FE1CA8B5204632C71DC011B08E0062A /* MomoiOSSwiftSdkV2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MomoiOSSwiftSdkV2-prefix.pch"; sourceTree = "<group>"; };
+		40F85677F1B9020D44E071E54FF6B4C9 /* momo_highlights.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = momo_highlights.png; path = MomoiOSSwiftSdkV2/Assets/momo_highlights.png; sourceTree = "<group>"; };
+		4BD6C77B3089DA745C476D09293349E1 /* MomoiOSSwiftSdkV2.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MomoiOSSwiftSdkV2.bundle; path = MomoiOSSwiftSdkV2.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FBAF40E2EDEF3A82754E2EDA9948C33 /* MoMoConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MoMoConfig.swift; path = MomoiOSSwiftSdkV2/Classes/MoMoConfig.swift; sourceTree = "<group>"; };
+		5EF721C7AD2E7F475772D20C797711C9 /* momo.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = momo.png; path = MomoiOSSwiftSdkV2/Assets/momo.png; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6C42D34E21A9AA02518191B2B3CDE506 /* Pods-MomoiOSSwiftSdkV2_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MomoiOSSwiftSdkV2_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6E0DD7CD980B201B17842806E67B7CF7 /* Pods-MomoiOSSwiftSdkV2_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MomoiOSSwiftSdkV2_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		7648746847B4F0F4D601E10BE2C4DD08 /* MomoiOSSwiftSdkV2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MomoiOSSwiftSdkV2-prefix.pch"; sourceTree = "<group>"; };
-		7B73CE138EB7AD43E8309D4694508EBD /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = MomoiOSSwiftSdkV2/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		837059F0E2E1379605A50F4861CD854B /* MomoiOSSwiftSdkV2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MomoiOSSwiftSdkV2.framework; path = MomoiOSSwiftSdkV2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		88215209A34CED407B02136D3CADEB1B /* Pods-MomoiOSSwiftSdkV2_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MomoiOSSwiftSdkV2_Tests-resources.sh"; sourceTree = "<group>"; };
-		8DC042DBE80406F8B77C5CEAF4350B58 /* Pods-MomoiOSSwiftSdkV2_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MomoiOSSwiftSdkV2_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		92274FF640686DCA6740AC1D08D725EE /* Pods_MomoiOSSwiftSdkV2_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MomoiOSSwiftSdkV2_Tests.framework; path = "Pods-MomoiOSSwiftSdkV2_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		691D26CC23EF420592300052B1C5924B /* MomoiOSSwiftSdkV2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MomoiOSSwiftSdkV2-dummy.m"; sourceTree = "<group>"; };
+		726EE23BBA5DE9D8BA2E7C9F21E0DFCA /* MomoiOSSwiftSdkV2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MomoiOSSwiftSdkV2.modulemap; sourceTree = "<group>"; };
+		78665CC340013804A3E9CB719F165C1C /* Pods-MomoiOSSwiftSdkV2_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MomoiOSSwiftSdkV2_Example-dummy.m"; sourceTree = "<group>"; };
+		8F20EAE69C554562A3704FE50033884D /* Pods-MomoiOSSwiftSdkV2_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MomoiOSSwiftSdkV2_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		98239508FF034FFD68CFA432A534A6C1 /* Pods-MomoiOSSwiftSdkV2_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MomoiOSSwiftSdkV2_Example.release.xcconfig"; sourceTree = "<group>"; };
-		AFE9B0729CBAF527240E00C5D9C70438 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B0C3E788150307828A0F1D0B42E191E2 /* Pods_MomoiOSSwiftSdkV2_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MomoiOSSwiftSdkV2_Example.framework; path = "Pods-MomoiOSSwiftSdkV2_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB0BD531556C8B118BFF391473E13E77 /* Pods-MomoiOSSwiftSdkV2_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MomoiOSSwiftSdkV2_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C99CD1EC23A93890E0DFF11D5AD13FD8 /* Pods-MomoiOSSwiftSdkV2_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MomoiOSSwiftSdkV2_Tests-umbrella.h"; sourceTree = "<group>"; };
-		D10235DE4EC2FB174F6DBC469CF021F2 /* MomoiOSSwiftSdkV2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MomoiOSSwiftSdkV2-dummy.m"; sourceTree = "<group>"; };
-		DBEBD22BEBCDCA1BDF32C3998FF9A05A /* Pods-MomoiOSSwiftSdkV2_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MomoiOSSwiftSdkV2_Example-frameworks.sh"; sourceTree = "<group>"; };
-		E7B1660AB01A4D3F99274783FFE2D616 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E7CC2E76547C34113409056AAD020F6D /* Pods-MomoiOSSwiftSdkV2_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MomoiOSSwiftSdkV2_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E836A639C5530C0C61B14D0B40A03E3D /* Pods-MomoiOSSwiftSdkV2_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MomoiOSSwiftSdkV2_Example.modulemap"; sourceTree = "<group>"; };
-		EABD435B2514FF5C0FB67835D2D86B88 /* Pods-MomoiOSSwiftSdkV2_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MomoiOSSwiftSdkV2_Example-resources.sh"; sourceTree = "<group>"; };
-		EB114EB1B0805DF986B59EC200A71E7E /* Pods-MomoiOSSwiftSdkV2_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MomoiOSSwiftSdkV2_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		EF97D1FA38D3A1F14DB1F5D1F4E82AA6 /* Pods-MomoiOSSwiftSdkV2_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MomoiOSSwiftSdkV2_Example-dummy.m"; sourceTree = "<group>"; };
+		9A503AA312AFD077C0B29ECF1E138F8B /* MomoiOSSwiftSdkV2.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MomoiOSSwiftSdkV2.xcconfig; sourceTree = "<group>"; };
+		AA8BB4358FBBF444E455D5467FFE3BCB /* momo_highlights@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "momo_highlights@2x.png"; path = "MomoiOSSwiftSdkV2/Assets/momo_highlights@2x.png"; sourceTree = "<group>"; };
+		B1D2509D085F09811BFB5C55EA4810B3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B97136D4EA654B277CF00AA3328D27DC /* Pods-MomoiOSSwiftSdkV2_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MomoiOSSwiftSdkV2_Example-resources.sh"; sourceTree = "<group>"; };
+		BCE1FA10709A83349F7929C5AEA1F1B1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDA2FAEAFE574084E7DE7EFE1EFF9B7A /* MomoiOSSwiftSdkV2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MomoiOSSwiftSdkV2-umbrella.h"; sourceTree = "<group>"; };
+		BF51A8758C94C062B00B8D14DAB94FBD /* MoMoPayment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MoMoPayment.swift; path = MomoiOSSwiftSdkV2/Classes/MoMoPayment.swift; sourceTree = "<group>"; };
+		C5EB08F92CDFEEBB2E363ED2DE7644C7 /* Pods-MomoiOSSwiftSdkV2_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MomoiOSSwiftSdkV2_Example.modulemap"; sourceTree = "<group>"; };
+		CFD3FB5DE78DC7FB2E2C5E520D809D5E /* Pods-MomoiOSSwiftSdkV2_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MomoiOSSwiftSdkV2_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D0AB0456754DED46E7C1CA2C32F7D3D6 /* Pods_MomoiOSSwiftSdkV2_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MomoiOSSwiftSdkV2_Example.framework; path = "Pods-MomoiOSSwiftSdkV2_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4E05984B950617A26E13A4070F5F1C3 /* Pods-MomoiOSSwiftSdkV2_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MomoiOSSwiftSdkV2_Example.release.xcconfig"; sourceTree = "<group>"; };
+		DF8A0C47CBC4269C410ED006CBE6C718 /* momo@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "momo@2x.png"; path = "MomoiOSSwiftSdkV2/Assets/momo@2x.png"; sourceTree = "<group>"; };
+		F19FD49D4982848783BAEBDC9781D5E9 /* Pods-MomoiOSSwiftSdkV2_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MomoiOSSwiftSdkV2_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FFC0A3C22837C46E60E7220A62E50839 /* ResourceBundle-MomoiOSSwiftSdkV2-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MomoiOSSwiftSdkV2-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,74 +79,97 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F151108F4DEAE3EB0D8C5BA5CAEC437 /* Frameworks */ = {
+		661AFAA49C8A08B45075A970FF9A8641 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C39F81C325ADCCAE199CB265077A19EF /* Foundation.framework in Frameworks */,
+				64093B8E205127B0E61386366724447E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A34307E3E9AB79A630CCE9362729C5B /* Frameworks */ = {
+		F338F3D23D21827471A5BA3617F65F04 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D7C72EC26542DD1FE136D6ECD0B3A86 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1C7D2731FC7181C2C0FA97F74F26FFDB /* Development Pods */ = {
+		16AADBD6C3C163F2EA1E7D93E00A89AA /* MomoiOSSwiftSdkV2 */ = {
 			isa = PBXGroup;
 			children = (
-				FE8B55A6E2B2CA6A798FCB106B4DAD6D /* MomoiOSSwiftSdkV2 */,
+				4FBAF40E2EDEF3A82754E2EDA9948C33 /* MoMoConfig.swift */,
+				BF51A8758C94C062B00B8D14DAB94FBD /* MoMoPayment.swift */,
+				3D3C5FE58DC6F673900D0569CFDEB36B /* Resources */,
+				1C5B4BC74F44A899F22A71824A12799D /* Support Files */,
 			);
-			name = "Development Pods";
+			name = MomoiOSSwiftSdkV2;
+			path = MomoiOSSwiftSdkV2;
 			sourceTree = "<group>";
 		};
-		27031622DB4A7F036680A79AB573525A /* Pods-MomoiOSSwiftSdkV2_Example */ = {
+		1C5B4BC74F44A899F22A71824A12799D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				AFE9B0729CBAF527240E00C5D9C70438 /* Info.plist */,
-				E836A639C5530C0C61B14D0B40A03E3D /* Pods-MomoiOSSwiftSdkV2_Example.modulemap */,
-				6C42D34E21A9AA02518191B2B3CDE506 /* Pods-MomoiOSSwiftSdkV2_Example-acknowledgements.markdown */,
-				34795C65AC4A2F922ABD3946605D05DC /* Pods-MomoiOSSwiftSdkV2_Example-acknowledgements.plist */,
-				EF97D1FA38D3A1F14DB1F5D1F4E82AA6 /* Pods-MomoiOSSwiftSdkV2_Example-dummy.m */,
-				DBEBD22BEBCDCA1BDF32C3998FF9A05A /* Pods-MomoiOSSwiftSdkV2_Example-frameworks.sh */,
-				EABD435B2514FF5C0FB67835D2D86B88 /* Pods-MomoiOSSwiftSdkV2_Example-resources.sh */,
-				31090F0E9342DE81AC7D654A39E99AA8 /* Pods-MomoiOSSwiftSdkV2_Example-umbrella.h */,
-				6E0DD7CD980B201B17842806E67B7CF7 /* Pods-MomoiOSSwiftSdkV2_Example.debug.xcconfig */,
-				98239508FF034FFD68CFA432A534A6C1 /* Pods-MomoiOSSwiftSdkV2_Example.release.xcconfig */,
+				B1D2509D085F09811BFB5C55EA4810B3 /* Info.plist */,
+				726EE23BBA5DE9D8BA2E7C9F21E0DFCA /* MomoiOSSwiftSdkV2.modulemap */,
+				9A503AA312AFD077C0B29ECF1E138F8B /* MomoiOSSwiftSdkV2.xcconfig */,
+				691D26CC23EF420592300052B1C5924B /* MomoiOSSwiftSdkV2-dummy.m */,
+				3FE1CA8B5204632C71DC011B08E0062A /* MomoiOSSwiftSdkV2-prefix.pch */,
+				BDA2FAEAFE574084E7DE7EFE1EFF9B7A /* MomoiOSSwiftSdkV2-umbrella.h */,
+				FFC0A3C22837C46E60E7220A62E50839 /* ResourceBundle-MomoiOSSwiftSdkV2-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MomoiOSSwiftSdkV2";
+			sourceTree = "<group>";
+		};
+		338A18C506FA82CEC38F2605F28D6C01 /* Pods-MomoiOSSwiftSdkV2_Example */ = {
+			isa = PBXGroup;
+			children = (
+				BCE1FA10709A83349F7929C5AEA1F1B1 /* Info.plist */,
+				C5EB08F92CDFEEBB2E363ED2DE7644C7 /* Pods-MomoiOSSwiftSdkV2_Example.modulemap */,
+				F19FD49D4982848783BAEBDC9781D5E9 /* Pods-MomoiOSSwiftSdkV2_Example-acknowledgements.markdown */,
+				8F20EAE69C554562A3704FE50033884D /* Pods-MomoiOSSwiftSdkV2_Example-acknowledgements.plist */,
+				78665CC340013804A3E9CB719F165C1C /* Pods-MomoiOSSwiftSdkV2_Example-dummy.m */,
+				1507C7AB523A06140AD1A6E6D9668678 /* Pods-MomoiOSSwiftSdkV2_Example-frameworks.sh */,
+				B97136D4EA654B277CF00AA3328D27DC /* Pods-MomoiOSSwiftSdkV2_Example-resources.sh */,
+				2356F1EC8DEE35B9B13E4AE0FD1F6670 /* Pods-MomoiOSSwiftSdkV2_Example-umbrella.h */,
+				CFD3FB5DE78DC7FB2E2C5E520D809D5E /* Pods-MomoiOSSwiftSdkV2_Example.debug.xcconfig */,
+				D4E05984B950617A26E13A4070F5F1C3 /* Pods-MomoiOSSwiftSdkV2_Example.release.xcconfig */,
 			);
 			name = "Pods-MomoiOSSwiftSdkV2_Example";
 			path = "Target Support Files/Pods-MomoiOSSwiftSdkV2_Example";
+			sourceTree = "<group>";
+		};
+		3D3C5FE58DC6F673900D0569CFDEB36B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5EF721C7AD2E7F475772D20C797711C9 /* momo.png */,
+				DF8A0C47CBC4269C410ED006CBE6C718 /* momo@2x.png */,
+				40F85677F1B9020D44E071E54FF6B4C9 /* momo_highlights.png */,
+				AA8BB4358FBBF444E455D5467FFE3BCB /* momo_highlights@2x.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				1C7D2731FC7181C2C0FA97F74F26FFDB /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				F1E6B3992310397269A3A544578C9720 /* Products */,
-				FDCE76A5ACBA15C126783FAD88859136 /* Targets Support Files */,
+				D748EFADBEBF95C9B3F62FF3BA605511 /* Pods */,
+				BFE0F0A85496F0AA8F9FC8C17A643C0C /* Products */,
+				9310DE5B64D1FE244794DB4392B1B157 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		975080A598E738D7E80F72247C8C842A /* Support Files */ = {
+		9310DE5B64D1FE244794DB4392B1B157 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E7B1660AB01A4D3F99274783FFE2D616 /* Info.plist */,
-				435F995E777CD5C4716F38F347B41BB9 /* MomoiOSSwiftSdkV2.modulemap */,
-				18C197B7F4008D494A58E4391011F38D /* MomoiOSSwiftSdkV2.xcconfig */,
-				D10235DE4EC2FB174F6DBC469CF021F2 /* MomoiOSSwiftSdkV2-dummy.m */,
-				7648746847B4F0F4D601E10BE2C4DD08 /* MomoiOSSwiftSdkV2-prefix.pch */,
-				52415DBB2B3883FBA8193229C64DEF6B /* MomoiOSSwiftSdkV2-umbrella.h */,
+				338A18C506FA82CEC38F2605F28D6C01 /* Pods-MomoiOSSwiftSdkV2_Example */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MomoiOSSwiftSdkV2";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -151,6 +180,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BFE0F0A85496F0AA8F9FC8C17A643C0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BD6C77B3089DA745C476D09293349E1 /* MomoiOSSwiftSdkV2.bundle */,
+				10710F419B3F0CEC54EAFA9AD4E96BA5 /* MomoiOSSwiftSdkV2.framework */,
+				D0AB0456754DED46E7C1CA2C32F7D3D6 /* Pods_MomoiOSSwiftSdkV2_Example.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -159,51 +198,12 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		F1E6B3992310397269A3A544578C9720 /* Products */ = {
+		D748EFADBEBF95C9B3F62FF3BA605511 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				837059F0E2E1379605A50F4861CD854B /* MomoiOSSwiftSdkV2.framework */,
-				B0C3E788150307828A0F1D0B42E191E2 /* Pods_MomoiOSSwiftSdkV2_Example.framework */,
-				92274FF640686DCA6740AC1D08D725EE /* Pods_MomoiOSSwiftSdkV2_Tests.framework */,
+				16AADBD6C3C163F2EA1E7D93E00A89AA /* MomoiOSSwiftSdkV2 */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		FCE1FCF269C493646441B7934CC4FE56 /* Pods-MomoiOSSwiftSdkV2_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				48F17B02724AAB440717750484D594B8 /* Info.plist */,
-				1862F6AC88A5AB3F8E4A16F06980F97E /* Pods-MomoiOSSwiftSdkV2_Tests.modulemap */,
-				8DC042DBE80406F8B77C5CEAF4350B58 /* Pods-MomoiOSSwiftSdkV2_Tests-acknowledgements.markdown */,
-				EB114EB1B0805DF986B59EC200A71E7E /* Pods-MomoiOSSwiftSdkV2_Tests-acknowledgements.plist */,
-				5D5498458F7BE62F91B50CD9A53E92B8 /* Pods-MomoiOSSwiftSdkV2_Tests-dummy.m */,
-				06D2F6613F3A8475AEB4E0D47C8B4C84 /* Pods-MomoiOSSwiftSdkV2_Tests-frameworks.sh */,
-				88215209A34CED407B02136D3CADEB1B /* Pods-MomoiOSSwiftSdkV2_Tests-resources.sh */,
-				C99CD1EC23A93890E0DFF11D5AD13FD8 /* Pods-MomoiOSSwiftSdkV2_Tests-umbrella.h */,
-				E7CC2E76547C34113409056AAD020F6D /* Pods-MomoiOSSwiftSdkV2_Tests.debug.xcconfig */,
-				BB0BD531556C8B118BFF391473E13E77 /* Pods-MomoiOSSwiftSdkV2_Tests.release.xcconfig */,
-			);
-			name = "Pods-MomoiOSSwiftSdkV2_Tests";
-			path = "Target Support Files/Pods-MomoiOSSwiftSdkV2_Tests";
-			sourceTree = "<group>";
-		};
-		FDCE76A5ACBA15C126783FAD88859136 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				27031622DB4A7F036680A79AB573525A /* Pods-MomoiOSSwiftSdkV2_Example */,
-				FCE1FCF269C493646441B7934CC4FE56 /* Pods-MomoiOSSwiftSdkV2_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		FE8B55A6E2B2CA6A798FCB106B4DAD6D /* MomoiOSSwiftSdkV2 */ = {
-			isa = PBXGroup;
-			children = (
-				7B73CE138EB7AD43E8309D4694508EBD /* ReplaceMe.swift */,
-				975080A598E738D7E80F72247C8C842A /* Support Files */,
-			);
-			name = MomoiOSSwiftSdkV2;
-			path = ../..;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,41 +217,52 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		57228BA7B5AE53042C5B3CD0F52F54F3 /* Headers */ = {
+		D4B1AF2659B74958AC559727B46C3078 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F06128869B57ABBE9B90369F3C1D167 /* Pods-MomoiOSSwiftSdkV2_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D0DA1E77A1F7752E1524D25EA5E639FA /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				53E3B28D7BE2AD7C7450B6ECBC64D723 /* MomoiOSSwiftSdkV2-umbrella.h in Headers */,
+				841B1C7DBBD5FD4EA917671BD4542EBC /* MomoiOSSwiftSdkV2-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		80E9A296AC84127143F16E72595ABDCB /* MomoiOSSwiftSdkV2 */ = {
+		56A2E3A7FEC7EE53C8CB8C3EF57C86A2 /* MomoiOSSwiftSdkV2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 515C45B344F7F37BB57D980F8078EBF7 /* Build configuration list for PBXNativeTarget "MomoiOSSwiftSdkV2" */;
+			buildConfigurationList = E3866505986FE2ED206AF8B4C537FA7D /* Build configuration list for PBXNativeTarget "MomoiOSSwiftSdkV2" */;
 			buildPhases = (
-				76DE1A624D89F911A924A14F624ED244 /* Sources */,
-				4F151108F4DEAE3EB0D8C5BA5CAEC437 /* Frameworks */,
-				D0DA1E77A1F7752E1524D25EA5E639FA /* Headers */,
+				95CE41390D55106F74F7086C2F60CB4A /* Sources */,
+				661AFAA49C8A08B45075A970FF9A8641 /* Frameworks */,
+				21F299006CF63C8B1894F0A0956ED7FD /* Resources */,
+				D4B1AF2659B74958AC559727B46C3078 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D06175AE6D1C582D4C95C4BDE87E8E99 /* PBXTargetDependency */,
+			);
+			name = MomoiOSSwiftSdkV2;
+			productName = MomoiOSSwiftSdkV2;
+			productReference = 10710F419B3F0CEC54EAFA9AD4E96BA5 /* MomoiOSSwiftSdkV2.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8A32CD992EF882AD6F77C602D0371607 /* MomoiOSSwiftSdkV2-MomoiOSSwiftSdkV2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B8D08CDF57ADECCD2A958F52B747864 /* Build configuration list for PBXNativeTarget "MomoiOSSwiftSdkV2-MomoiOSSwiftSdkV2" */;
+			buildPhases = (
+				3D747099F5714F651B157CF39498FED0 /* Sources */,
+				F338F3D23D21827471A5BA3617F65F04 /* Frameworks */,
+				D80D4F212A4CABAB083A28F6BBB0D2A6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = MomoiOSSwiftSdkV2;
-			productName = MomoiOSSwiftSdkV2;
-			productReference = 837059F0E2E1379605A50F4861CD854B /* MomoiOSSwiftSdkV2.framework */;
-			productType = "com.apple.product-type.framework";
+			name = "MomoiOSSwiftSdkV2-MomoiOSSwiftSdkV2";
+			productName = "MomoiOSSwiftSdkV2-MomoiOSSwiftSdkV2";
+			productReference = 4BD6C77B3089DA745C476D09293349E1 /* MomoiOSSwiftSdkV2.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 		9CF34C21FDA92CE5100474FA0E3A3FF2 /* Pods-MomoiOSSwiftSdkV2_Example */ = {
 			isa = PBXNativeTarget;
@@ -268,24 +279,7 @@
 			);
 			name = "Pods-MomoiOSSwiftSdkV2_Example";
 			productName = "Pods-MomoiOSSwiftSdkV2_Example";
-			productReference = B0C3E788150307828A0F1D0B42E191E2 /* Pods_MomoiOSSwiftSdkV2_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		FFF129B2FB468C7D45A4C63E986796BD /* Pods-MomoiOSSwiftSdkV2_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5C0524F7BA6B18423D875B81CFB72AD0 /* Build configuration list for PBXNativeTarget "Pods-MomoiOSSwiftSdkV2_Tests" */;
-			buildPhases = (
-				B662252C5FE36A2330DE1E84CCBBDEF5 /* Sources */,
-				9A34307E3E9AB79A630CCE9362729C5B /* Frameworks */,
-				57228BA7B5AE53042C5B3CD0F52F54F3 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-MomoiOSSwiftSdkV2_Tests";
-			productName = "Pods-MomoiOSSwiftSdkV2_Tests";
-			productReference = 92274FF640686DCA6740AC1D08D725EE /* Pods_MomoiOSSwiftSdkV2_Tests.framework */;
+			productReference = D0AB0456754DED46E7C1CA2C32F7D3D6 /* Pods_MomoiOSSwiftSdkV2_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -305,16 +299,38 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = F1E6B3992310397269A3A544578C9720 /* Products */;
+			productRefGroup = BFE0F0A85496F0AA8F9FC8C17A643C0C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				80E9A296AC84127143F16E72595ABDCB /* MomoiOSSwiftSdkV2 */,
+				56A2E3A7FEC7EE53C8CB8C3EF57C86A2 /* MomoiOSSwiftSdkV2 */,
+				8A32CD992EF882AD6F77C602D0371607 /* MomoiOSSwiftSdkV2-MomoiOSSwiftSdkV2 */,
 				9CF34C21FDA92CE5100474FA0E3A3FF2 /* Pods-MomoiOSSwiftSdkV2_Example */,
-				FFF129B2FB468C7D45A4C63E986796BD /* Pods-MomoiOSSwiftSdkV2_Tests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21F299006CF63C8B1894F0A0956ED7FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2802CC8C81289E25CC4F95C83DBC733D /* MomoiOSSwiftSdkV2.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80D4F212A4CABAB083A28F6BBB0D2A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01D91B5225A33182E43105BF3F7CA00C /* momo.png in Resources */,
+				5723203F4EA8FC9C0DC6DFF8F946CF4C /* momo@2x.png in Resources */,
+				128F8ED2AF76887DD3156348CB1571B2 /* momo_highlights.png in Resources */,
+				AE7B62A369820504C37F24FE5BCDBEC3 /* momo_highlights@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		26F70C6C149F8F16852F3FAB15A79A9A /* Sources */ = {
@@ -325,20 +341,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		76DE1A624D89F911A924A14F624ED244 /* Sources */ = {
+		3D747099F5714F651B157CF39498FED0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3145DC04CC09EA3C401F9FB27798A010 /* MomoiOSSwiftSdkV2-dummy.m in Sources */,
-				C94A1E83DAAB7FA8A15317206B0B6E7E /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B662252C5FE36A2330DE1E84CCBBDEF5 /* Sources */ = {
+		95CE41390D55106F74F7086C2F60CB4A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				183F350DC28D00702F1B82F74EA273B4 /* Pods-MomoiOSSwiftSdkV2_Tests-dummy.m in Sources */,
+				2C6E2C2A6C1641AEB2F573ED19CDD892 /* MoMoConfig.swift in Sources */,
+				D93CBADB7096F346C3A454BAC96F59BE /* MomoiOSSwiftSdkV2-dummy.m in Sources */,
+				01ABFE93ACF19C8B684F219EC19F46FB /* MoMoPayment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,8 +364,14 @@
 		485627D9AC1BCDF26F4AC4A7FD0297A7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MomoiOSSwiftSdkV2;
-			target = 80E9A296AC84127143F16E72595ABDCB /* MomoiOSSwiftSdkV2 */;
+			target = 56A2E3A7FEC7EE53C8CB8C3EF57C86A2 /* MomoiOSSwiftSdkV2 */;
 			targetProxy = 4E90ACA9176017ABB40B7714B563DB9E /* PBXContainerItemProxy */;
+		};
+		D06175AE6D1C582D4C95C4BDE87E8E99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MomoiOSSwiftSdkV2-MomoiOSSwiftSdkV2";
+			target = 8A32CD992EF882AD6F77C602D0371607 /* MomoiOSSwiftSdkV2-MomoiOSSwiftSdkV2 */;
+			targetProxy = 7344E2BBE1312BA2C6935F1DF0C2BFC5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -414,9 +436,25 @@
 			};
 			name = Debug;
 		};
+		5010035259FC62F4DE9A8E72F7522105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A503AA312AFD077C0B29ECF1E138F8B /* MomoiOSSwiftSdkV2.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MomoiOSSwiftSdkV2";
+				INFOPLIST_FILE = "Target Support Files/MomoiOSSwiftSdkV2/ResourceBundle-MomoiOSSwiftSdkV2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = MomoiOSSwiftSdkV2;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 		55E8BD5C5E85B7FFD1C04FE009F525E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6E0DD7CD980B201B17842806E67B7CF7 /* Pods-MomoiOSSwiftSdkV2_Example.debug.xcconfig */;
+			baseConfigurationReference = CFD3FB5DE78DC7FB2E2C5E520D809D5E /* Pods-MomoiOSSwiftSdkV2_Example.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -448,9 +486,9 @@
 			};
 			name = Debug;
 		};
-		5D798C988D9CD4C866F7B8F353DDBCE6 /* Release */ = {
+		61B7B84C007C55A42D0EC783DCA1615C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 18C197B7F4008D494A58E4391011F38D /* MomoiOSSwiftSdkV2.xcconfig */;
+			baseConfigurationReference = 9A503AA312AFD077C0B29ECF1E138F8B /* MomoiOSSwiftSdkV2.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -480,42 +518,9 @@
 			};
 			name = Release;
 		};
-		639B814593B68E53D7E84841D28B47B6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB0BD531556C8B118BFF391473E13E77 /* Pods-MomoiOSSwiftSdkV2_Tests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MomoiOSSwiftSdkV2_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MomoiOSSwiftSdkV2_Tests/Pods-MomoiOSSwiftSdkV2_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_MomoiOSSwiftSdkV2_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		69ADFACAA054454A96D6BD380A6D7B58 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 98239508FF034FFD68CFA432A534A6C1 /* Pods-MomoiOSSwiftSdkV2_Example.release.xcconfig */;
+			baseConfigurationReference = D4E05984B950617A26E13A4070F5F1C3 /* Pods-MomoiOSSwiftSdkV2_Example.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -546,38 +551,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		6D04B43CA8A0804240C3F8BA4B98346B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E7CC2E76547C34113409056AAD020F6D /* Pods-MomoiOSSwiftSdkV2_Tests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MomoiOSSwiftSdkV2_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MomoiOSSwiftSdkV2_Tests/Pods-MomoiOSSwiftSdkV2_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_MomoiOSSwiftSdkV2_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -634,9 +607,9 @@
 			};
 			name = Release;
 		};
-		9CA9CC26C44C8732C699E22CF6C6B5BE /* Debug */ = {
+		CF1482E9A1E11C81836D61E7411DD561 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 18C197B7F4008D494A58E4391011F38D /* MomoiOSSwiftSdkV2.xcconfig */;
+			baseConfigurationReference = 9A503AA312AFD077C0B29ECF1E138F8B /* MomoiOSSwiftSdkV2.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -665,6 +638,22 @@
 			};
 			name = Debug;
 		};
+		EC0E205AFFB00AA6A89DBD66C9C4B4D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A503AA312AFD077C0B29ECF1E138F8B /* MomoiOSSwiftSdkV2.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MomoiOSSwiftSdkV2";
+				INFOPLIST_FILE = "Target Support Files/MomoiOSSwiftSdkV2/ResourceBundle-MomoiOSSwiftSdkV2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = MomoiOSSwiftSdkV2;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -686,20 +675,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		515C45B344F7F37BB57D980F8078EBF7 /* Build configuration list for PBXNativeTarget "MomoiOSSwiftSdkV2" */ = {
+		9B8D08CDF57ADECCD2A958F52B747864 /* Build configuration list for PBXNativeTarget "MomoiOSSwiftSdkV2-MomoiOSSwiftSdkV2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9CA9CC26C44C8732C699E22CF6C6B5BE /* Debug */,
-				5D798C988D9CD4C866F7B8F353DDBCE6 /* Release */,
+				5010035259FC62F4DE9A8E72F7522105 /* Debug */,
+				EC0E205AFFB00AA6A89DBD66C9C4B4D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5C0524F7BA6B18423D875B81CFB72AD0 /* Build configuration list for PBXNativeTarget "Pods-MomoiOSSwiftSdkV2_Tests" */ = {
+		E3866505986FE2ED206AF8B4C537FA7D /* Build configuration list for PBXNativeTarget "MomoiOSSwiftSdkV2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6D04B43CA8A0804240C3F8BA4B98346B /* Debug */,
-				639B814593B68E53D7E84841D28B47B6 /* Release */,
+				CF1482E9A1E11C81836D61E7411DD561 /* Debug */,
+				61B7B84C007C55A42D0EC783DCA1615C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		233BBAB84FC896A0FF175319 /* Pods_MomoiOSSwiftSdkV2_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B909D5D039CD561019140BDC /* Pods_MomoiOSSwiftSdkV2_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -39,13 +38,11 @@
 		607FACE51AFB9204008FA782 /* MomoiOSSwiftSdkV2_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MomoiOSSwiftSdkV2_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		69C18E7BEA13E21493B8F323 /* Pods-MomoiOSSwiftSdkV2_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MomoiOSSwiftSdkV2_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MomoiOSSwiftSdkV2_Tests/Pods-MomoiOSSwiftSdkV2_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7E02BBB4C41AA61B80885D0B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B35F774EC29C0AFC7E64DAFE /* Pods_MomoiOSSwiftSdkV2_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MomoiOSSwiftSdkV2_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8B8D7A7983B9DD311D2B7A3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B909D5D039CD561019140BDC /* Pods_MomoiOSSwiftSdkV2_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MomoiOSSwiftSdkV2_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB7919146794880EA012770B /* MomoiOSSwiftSdkV2.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MomoiOSSwiftSdkV2.podspec; path = ../MomoiOSSwiftSdkV2.podspec; sourceTree = "<group>"; };
-		E950922EF8C3E909311E4192 /* Pods-MomoiOSSwiftSdkV2_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MomoiOSSwiftSdkV2_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MomoiOSSwiftSdkV2_Tests/Pods-MomoiOSSwiftSdkV2_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F4C0A1449F24CA3331CD059E /* Pods-MomoiOSSwiftSdkV2_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MomoiOSSwiftSdkV2_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MomoiOSSwiftSdkV2_Example/Pods-MomoiOSSwiftSdkV2_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,7 +59,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				233BBAB84FC896A0FF175319 /* Pods_MomoiOSSwiftSdkV2_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,8 +149,6 @@
 			children = (
 				09C6C42D06B079A02ADA20C6 /* Pods-MomoiOSSwiftSdkV2_Example.debug.xcconfig */,
 				F4C0A1449F24CA3331CD059E /* Pods-MomoiOSSwiftSdkV2_Example.release.xcconfig */,
-				E950922EF8C3E909311E4192 /* Pods-MomoiOSSwiftSdkV2_Tests.debug.xcconfig */,
-				69C18E7BEA13E21493B8F323 /* Pods-MomoiOSSwiftSdkV2_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -186,12 +180,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "MomoiOSSwiftSdkV2_Tests" */;
 			buildPhases = (
-				7310E95EADC85E0D17EE46F8 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				D2FE85E8D181404BFB35F3CD /* [CP] Embed Pods Frameworks */,
-				DAD4BB4641F39476A7DA9B01 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -282,24 +273,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MomoiOSSwiftSdkV2_Example/Pods-MomoiOSSwiftSdkV2_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7310E95EADC85E0D17EE46F8 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MomoiOSSwiftSdkV2_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		C61F4F871C53206C543A0C26 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -313,36 +286,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MomoiOSSwiftSdkV2_Example/Pods-MomoiOSSwiftSdkV2_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D2FE85E8D181404BFB35F3CD /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MomoiOSSwiftSdkV2_Tests/Pods-MomoiOSSwiftSdkV2_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DAD4BB4641F39476A7DA9B01 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MomoiOSSwiftSdkV2_Tests/Pods-MomoiOSSwiftSdkV2_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		ECB4B1658870D02AC7BDD626 /* [CP] Check Pods Manifest.lock */ = {
@@ -544,7 +487,6 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E950922EF8C3E909311E4192 /* Pods-MomoiOSSwiftSdkV2_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -565,7 +507,6 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69C18E7BEA13E21493B8F323 /* Pods-MomoiOSSwiftSdkV2_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",

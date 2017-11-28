@@ -38,15 +38,17 @@ class ViewController: UIViewController {
         NotificationCenter.default.addObserver(self, selector: #selector(self.NoficationCenterTokenReceived), name:NSNotification.Name(rawValue: "NoficationCenterTokenReceived"), object: nil)
         //        NotificationCenter.default.addObserver(self, selector: #selector(self.NoficationCenterTokenReceived), name:NSNotification.Name(rawValue: "NoficationCenterTokenReceivedUri"), object: nil)
         //
-        //STEP 2: INIT MERCHANT AND PAYMENT INFO. THEY CAN UPDATE RE
+        //STEP 2: INIT MERCHANT AND PAYMENT INFO.
         MoMoPayment.sharedInstance.setupEnvironment(environment: MoMoConfig.MOMO_ENVIRONEMENT.DEVELOPMENT)
         MoMoPayment.sharedInstance.initMerchant(merchantCode: "SCB01", merchantName: "Manchester United", merchantNameLabel: "Nhà cung cấp")
         
-        //Setup amount
+        //Setup amount. YOU CAN UPDATE ANYTIME IF NEED
         let paymentinfo = NSMutableDictionary()
-        paymentinfo[MOMO_PAY_CLIENT_AMOUNT_TRANSFER] = payment_amount
-        paymentinfo[MOMO_PAY_CLIENT_FEE_TRANSFER] = payment_fee_display
-        paymentinfo[MOMO_PAY_CLIENT_USERNAME] = payment_userId
+        paymentinfo["amount"] = payment_amount
+        paymentinfo["fee"] = payment_fee_display
+        paymentinfo["description"] = "Thanh toán vé may bay Vietjet Air"
+        paymentinfo["extraData"] = "{\"key1\":\"value1\",\"key2\":\"value2\"}"
+        paymentinfo["username"] = payment_userId
         MoMoPayment.sharedInstance.createPaymentInformation(info: paymentinfo)
         
         //STEP 3: INIT LAYOUT - ADD BUTTON PAYMENT VIA MOMO
@@ -70,7 +72,7 @@ class ViewController: UIViewController {
     /*
      * SERVER SIDE 
      */
-    func NoficationCenterTokenReceived(notif: NSNotification) {
+    @objc func NoficationCenterTokenReceived(notif: NSNotification) {
         //Token Replied - Call Payment to MoMo Server
         print("::MoMoPay Log::Received Token Replied::\(notif.object!)")
         lblMessage.text = "RequestToken response:\n  \(notif.object as Any)"
@@ -223,17 +225,7 @@ class ViewController: UIViewController {
         paymentArea.addSubview(lblMessage)
         
         self.view.addSubview(paymentArea)
-        //IMPORTANT: Payment Information
         
-        let paymentinfo = NSMutableDictionary()
-        paymentinfo["language"] = "vi"
-        paymentinfo["amount"] = payment_amount
-        paymentinfo["fee"] = payment_fee_display
-        paymentinfo["description"] = "Thanh toán vé may bay Vietjet Air"
-        paymentinfo["extraData"] = "{\"key1\":\"value1\",\"key2\":\"value2\"}"
-        paymentinfo["username"] = payment_userId
-        
-        MoMoPayment.sharedInstance.createPaymentInformation(info: paymentinfo )
         
     }
     
@@ -268,10 +260,6 @@ class ViewController: UIViewController {
             alert.show()
         }
         print("<MoMoPay> WARNING: implement this feature on your server side")
-        
-        
-        
-        
         
         /**********END Sample send request on Your Server -To - MoMo Server
          **********WARNING: must to remove it on your product app
