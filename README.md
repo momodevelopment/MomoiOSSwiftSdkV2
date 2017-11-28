@@ -20,6 +20,10 @@ it, simply add the following line to your Podfile:
 pod 'MomoiOSSwiftSdkV2'
 ```
 
+```ruby
+pod 'MomoiOSSwiftSdkV2', :git => 'https://github.com/momodevelopment/MomoiOSSwiftSdkV2.2.git',:branch => "master"
+```
+
 ## Author
 
 momodevelopment, lanh.luu@mservice.com.vn
