@@ -85,7 +85,7 @@ class MoMoPayment: NSObject {
         let data:String = getQueryStringParameter(url: query,param: "data")!
         let fromapp:String = getQueryStringParameter(url: query,param: "fromapp")!
         let appSource:String = getQueryStringParameter(url: query,param: "appSource")!
-        let base64Encoded:String = getQueryStringParameter(url: query,param: "extraData")!
+        let base64Encoded:String = getQueryStringParameter(url: query,param: "extra")!
         
         var extra = base64Encoded
         if (extra != ""){
@@ -104,7 +104,7 @@ class MoMoPayment: NSObject {
         info.setValue(String(describing: data), forKey: "data")
         info.setValue(String(describing: fromapp), forKey: "fromapp")
         info.setValue(String(describing: appSource), forKey: "appSource")
-        info.setValue(String(describing: extra), forKey: "extraData")
+        info.setValue(String(describing: extra), forKey: "extra")
         
         return info
     }
@@ -153,7 +153,7 @@ class MoMoPayment: NSObject {
             }
             else{
                 let _key = key as? String ;
-                if _key == "extraData" || _key == "extraData" {
+                if _key == "extra" || _key == "extra" {
                     
                     //print("UTF8 Original: \(_value)")
                     

@@ -47,7 +47,7 @@ class ViewController: UIViewController {
         paymentinfo["amount"] = payment_amount
         paymentinfo["fee"] = payment_fee_display
         paymentinfo["description"] = "Thanh toán vé may bay Vietjet Air"
-        paymentinfo["extraData"] = "{\"key1\":\"value1\",\"key2\":\"value2\"}"
+        paymentinfo["extra"] = "{\"key1\":\"value1\",\"key2\":\"value2\"}"
         paymentinfo["username"] = payment_userId
         MoMoPayment.sharedInstance.createPaymentInformation(info: paymentinfo)
         
