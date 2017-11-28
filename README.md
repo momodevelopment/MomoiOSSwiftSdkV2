@@ -21,7 +21,7 @@ pod 'MomoiOSSwiftSdkV2'
 ```
 
 ```ruby
-pod 'MomoiOSSwiftSdkV2', :git => 'https://github.com/momodevelopment/MomoiOSSwiftSdkV2.2.git',:branch => "master"
+pod 'MomoiOSSwiftSdkV2', :git => 'https://github.com/momodevelopment/MomoiOSSwiftSdkV2.git',:branch => "master"
 ```
 
 ## Author
