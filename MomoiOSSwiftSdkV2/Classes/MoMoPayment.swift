@@ -114,7 +114,7 @@ class MoMoPayment: NSObject {
         paymentInfo = info
     }
     
-    open func addMoMoPayCustomButton(button: UIButton, forControlEvents controlEvents: UIControlEvents, toView parrentView: UIView) -> UIButton {
+    @objc open func addMoMoPayCustomButton(button: UIButton, forControlEvents controlEvents: UIControlEvents, toView parrentView: UIView) -> UIButton {
         
         button.addTarget(self, action: #selector(self.requestToken), for: .touchUpInside)
         
@@ -123,7 +123,7 @@ class MoMoPayment: NSObject {
     }
     
     
-    open func requestToken() {
+    @objc open func requestToken() {
 
         if (paymentInfo as NSMutableDictionary!) == nil {
             print("<MoMoPay> Payment pakageApp should not be null.")

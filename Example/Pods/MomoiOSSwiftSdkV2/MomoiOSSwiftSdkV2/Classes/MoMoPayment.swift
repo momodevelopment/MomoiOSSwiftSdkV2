@@ -123,7 +123,7 @@ class MoMoPayment: NSObject {
     }
     
     
-    open func requestToken() {
+    @objc open func requestToken() {
 
         if (paymentInfo as NSMutableDictionary!) == nil {
             print("<MoMoPay> Payment pakageApp should not be null.")
