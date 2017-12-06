@@ -55,27 +55,26 @@ Step 1. Config file Plist
 Step 2. Import SDK
 AppDelegate instance
 ```
-#import "MoMoPayment.h"
+//#import "MoMoPayment.h"
 
--(BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url
-{
-    [[MoMoPayment shareInstant] handleOpenUrl:url];
-    return YES;
+open func application(_ application: UIApplication, open url: URL, sourceApplication: String?, annotation: Any) -> Bool {
+        MoMoPayment.sharedInstance.handleOpenUrl(url: url, sourceApp: sourceApplication!)
+        return true
 }
 ```
 
 Step 3. Update Layout Payment
 ```
-#import "MoMoPayment.h"
-#import "MoMoDialogs.h"
+//import MoMoPayment
+//import MoMoDialogs
 ```
 
 #NotificationCenter registration
 MOMO NOTIFICATION KEYS SHOULD BE REMOVED WHEN THE VIEWCONTROLLERS DEALLOCATING OR DISMISSING COMPLETED
 (Notification keys: NoficationCenterTokenReceived , NoficationCenterTokenStartRequest)
 ```
-- (void)viewDidLoad {
-    [super viewDidLoad];
+override func viewDidLoad() {
+    super.viewDidLoad()
     
     NotificationCenter.default.addObserver(self, selector: #selector(self.NoficationCenterTokenReceived), name:NSNotification.Name(rawValue: "NoficationCenterTokenReceived"), object: nil)
 //        NotificationCenter.default.addObserver(self, selector: #selector(self.NoficationCenterTokenReceived), name:NSNotification.Name(rawValue: "NoficationCenterTokenReceivedUri"), object: nil)
@@ -83,14 +82,11 @@ MOMO NOTIFICATION KEYS SHOULD BE REMOVED WHEN THE VIEWCONTROLLERS DEALLOCATING O
     MoMoPayment.sharedInstance.initMerchant(merchantCode: "SCB01", merchantName: "Manchester United", merchantNameLabel: "Nhà cung cấp")
         
     
-    [self initOrderAndButtonAction];
+    initOrderAndButtonAction()
 }
 ```
 #Handle MoMoNotificationReceive
 ```
-/*
-     * SERVER SIDE 
-     */
     @objc func NoficationCenterTokenReceived(notif: NSNotification) {
         //Token Replied - Call Payment to MoMo Server
         print("::MoMoPay Log::Received Token Replied::\(notif.object!)")
@@ -133,7 +129,8 @@ MOMO NOTIFICATION KEYS SHOULD BE REMOVED WHEN THE VIEWCONTROLLERS DEALLOCATING O
 Add Button Action to Pay Via MOMO
 Button title: EN = MoMo Wallet , VI = Ví MoMo
 ```
--(void)initOrderAndButtonAction{
+func initlayout() {
+func initOrderAndButtonAction() {
     //STEP 1: INIT ORDER INFO
     NSMutableDictionary *paymentinfo = [[NSMutableDictionary alloc] initWithObjectsAndKeys:
                                             [NSNumber numberWithInt:99000],@"amount",
@@ -158,14 +155,23 @@ Button title: EN = MoMo Wallet , VI = Ví MoMo
 
     //STEP 2: ADD BUTTON ACTION TO PAY VIA MOMO WALLET
     //buttonAction will open MoMo app to pay
-    [[MoMoPayment shareInstant] addMoMoPayCustomButton:buttonAction forControlEvents:UIControlEventTouchUpInside toView:yourPaymentView];
+        let btnPay = UIButton()
+        btnPay.frame = CGRect(x: 10, y: 100, width: 260, height: 40)
+        btnPay.setTitle("Pay Via MoMo Wallet", for: .normal)
+        btnPay.setTitleColor(UIColor.white, for: .normal)
+        btnPay.titleLabel!.font = UIFont.systemFont(ofSize: 15)
+        btnPay.backgroundColor = UIColor.purple
+        //btnPay.addTarget(self, action: #selector(MoMoPayment.sharedInstance.requestToken), for: UIControlEvents.touchUpInside)
+        //paymentArea.addSubview(btnPay)
+        btnPay = MoMoPayment.sharedInstance.addMoMoPayCustomButton(button: btnPay, forControlEvents: .touchUpInside, toView: paymentArea)
+        
 
 }
 ```
 
 ## Author
 
-momodevelopment, lanh.luu@mservice.com.vn
+MoMo Development Team
 
 ## License
 
