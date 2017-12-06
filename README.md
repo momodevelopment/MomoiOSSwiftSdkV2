@@ -55,7 +55,6 @@ Step 1. Config file Plist
 Step 2. Import SDK
 AppDelegate instance
 ```
-//#import "MoMoPayment.h"
 
 open func application(_ application: UIApplication, open url: URL, sourceApplication: String?, annotation: Any) -> Bool {
         MoMoPayment.sharedInstance.handleOpenUrl(url: url, sourceApp: sourceApplication!)
@@ -64,10 +63,6 @@ open func application(_ application: UIApplication, open url: URL, sourceApplica
 ```
 
 Step 3. Update Layout Payment
-```
-//import MoMoPayment
-//import MoMoDialogs
-```
 
 #NotificationCenter registration
 MOMO NOTIFICATION KEYS SHOULD BE REMOVED WHEN THE VIEWCONTROLLERS DEALLOCATING OR DISMISSING COMPLETED
