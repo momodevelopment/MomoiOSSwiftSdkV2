@@ -124,7 +124,6 @@ override func viewDidLoad() {
 Add Button Action to Pay Via MOMO
 Button title: EN = MoMo Wallet , VI = Ví MoMo
 ```
-func initlayout() {
 func initOrderAndButtonAction() {
     //STEP 1: INIT ORDER INFO
     NSMutableDictionary *paymentinfo = [[NSMutableDictionary alloc] initWithObjectsAndKeys:
@@ -143,7 +142,7 @@ func initOrderAndButtonAction() {
         let paymentinfo = NSMutableDictionary()
         paymentinfo["amount"] = payment_amount
         paymentinfo["fee"] = payment_fee_display
-        paymentinfo["description"] = "Thanh toán vé may bay Vietjet Air"
+        paymentinfo["description"] = "Buy Vietjet Air Ticket"
         paymentinfo["extra"] = "{\"key1\":\"value1\",\"key2\":\"value2\"}"
         paymentinfo["username"] = payment_userId
         MoMoPayment.sharedInstance.createPaymentInformation(info: paymentinfo)
