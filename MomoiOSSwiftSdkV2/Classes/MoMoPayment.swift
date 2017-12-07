@@ -180,7 +180,7 @@ class MoMoPayment: NSObject {
         var appSource:String = "\(MOMO_APP_BUNDLE_ID_PRODUCT)://?\(inputParams)"
         
         let _env = MoMoConfig.getEnvironment()
-        if (_env != 3){
+        if (_env < 3){
             appSource = "\(MOMO_APP_BUNDLE_ID)://?\(inputParams)"
         }
         
