@@ -177,13 +177,18 @@ class MoMoPayment: NSObject {
             
         }
         
-        var appSource:String = "\(MOMO_APP_BUNDLE_ID)://?\(inputParams)"
+        var appSource:String = "\(MOMO_APP_BUNDLE_ID_PRODUCT)://?\(inputParams)"
+        
+        let _env = MoMoConfig.getEnvironment()
+        if (MoMoConfig.MOMO_ENVIRONEMENT.PRODUCTION != _env){
+            appSource = "\(MOMO_APP_BUNDLE_ID)://?\(inputParams)"
+        }
+        
         appSource = appSource.removingPercentEncoding! as String
         appSource = appSource.addingPercentEncoding(withAllowedCharacters: NSCharacterSet.urlQueryAllowed)!
 
-        //print(appSource)
-        //let ourURL:URL = (NSURL(string: appSource)?.absoluteURL)! as URL  ;//URL(string: appSource)!
-        
+        print("<MoMoPay> open url \(appSource)")
+
         if let urlAppMoMo = URL(string: appSource) {
             if UIApplication.shared.canOpenURL(urlAppMoMo) {
                 if let momoAppURL:URL = URL(string:""+"\(appSource)") {

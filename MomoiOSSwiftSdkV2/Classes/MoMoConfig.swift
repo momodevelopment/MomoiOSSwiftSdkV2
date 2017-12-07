@@ -29,7 +29,7 @@ let MOMO_PAY_CLIENT_ENVIRONTMENT = "MOMO_PAY_CLIENT_ENVIRONTMENT"
  Sanbox bundleId "momo"
  Production bundleId "com.mservice.com.vn.momotransfer"
  */
-let MOMO_APP_BUNDLE_ID = "momo"//"com.mservice.com.vn.momotransfer"
+let MOMO_APP_BUNDLE_ID = "com.momo.appv2.ios"
 let MOMO_APP_BUNDLE_ID_PRODUCT = "com.mservice.com.vn.momotransfer"
 let MOMO_PAY_SDK_VERSION = "2.2"
 let MOMO_APP_ITUNES_DOWNLOAD_PATH = "itms-apps://itunes.apple.com/us/app/momo-chuyen-nhan-tien/id918751511"
@@ -45,7 +45,7 @@ let MOMO_TOKEN_RESPONSE_USER_CANCELED = "4"
 
 class MoMoConfig {
     enum MOMO_ENVIRONEMENT: Int {
-        case DEFAULT = 1, DEVELOPMENT = 2, PRODUCTION
+        case DEFAULT = 1, DEVELOPMENT = 2, PRODUCTION = 3
     }
    
     class func setAppBundleId(bundleId: String) {
@@ -117,10 +117,9 @@ class MoMoConfig {
         Foundation.UserDefaults.standard.synchronize()
     }
     
-    class func getPublickey() -> Int {
+    class func getEnvironment() -> Int {
         return UserDefaults.standard.integer(forKey: MOMO_PAY_CLIENT_ENVIRONTMENT) 
     }
-    
     
     class func getDeviceInfoString() -> String {
         let aDevice = UIDevice.current //UIDevice.currentDevice()
