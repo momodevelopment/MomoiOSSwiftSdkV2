@@ -2,7 +2,7 @@
 //  MoMoConfig.swift
 //  SampleApp-Swift
 //
-//  Created by Luu Lanh on 4/24/17.
+//  Created by Luu Lanh on 12/07/17.
 //  Copyright © 2017 LuuLanh. All rights reserved.
 //
 
@@ -30,7 +30,7 @@ let MOMO_PAY_CLIENT_ENVIRONTMENT = "MOMO_PAY_CLIENT_ENVIRONTMENT"
  Production bundleId "com.mservice.com.vn.momotransfer"
  */
 let MOMO_APP_BUNDLE_ID = "com.momo.appv2.ios"
-let MOMO_APP_BUNDLE_ID_PRODUCT = "com.mservice.com.vn.momotransfer"
+let MOMO_APP_BUNDLE_ID_PRODUCT = "com.momo.appv2.ios" //"com.mservice.com.vn.momotransfer"
 let MOMO_PAY_SDK_VERSION = "2.2"
 let MOMO_APP_ITUNES_DOWNLOAD_PATH = "itms-apps://itunes.apple.com/us/app/momo-chuyen-nhan-tien/id918751511"
 
