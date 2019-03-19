@@ -134,7 +134,8 @@ class MoMoPayment: NSObject {
         print("<MoMoPay> requestToken")
         let bundleId = Bundle.main.bundleIdentifier
         //Open MoMo App to get token
-        var inputParams = "action=\(MoMoConfig.getAction())&partner=merchant"
+        var customeActionValue = "action=\(MOMO_PAY_SDK_ACTION_GETTOKEN)"
+        var inputParams = "partner=merchant"
         paymentInfo?[MOMO_PAY_CLIENT_MERCHANT_CODE_KEY] = MoMoConfig.getMerchantcode()
         paymentInfo?[MOMO_PAY_CLIENT_MERCHANT_NAME_KEY] = MoMoConfig.getMerchantname()
         paymentInfo?[MOMO_PAY_CLIENT_MERCHANT_NAME_LABEL_KEY] = MoMoConfig.getMerchantnameLabel()
@@ -171,13 +172,19 @@ class MoMoPayment: NSObject {
                     
                 }
                 else {
-                    inputParams.append("&\(key as! String)=\(paymentInfo?[key] as! String)")
+                    if _key == "action" {
+                        customeActionValue = "action=\(paymentInfo?[key] as! String)"
+                    }
+                    else{
+                        inputParams.append("&\(key as! String)=\(paymentInfo?[key] as! String)")
+                    }
+                    
                 }
                 
             }
             
         }
-        
+        inputParams = "\(customeActionValue)&\(inputParams)"
         var appSource:String = "\(MOMO_APP_BUNDLE_ID_PRODUCT)://?\(inputParams)"
         
         let _env = MoMoConfig.getEnvironment()
