@@ -70,7 +70,9 @@ MOMO NOTIFICATION KEYS SHOULD BE REMOVED WHEN THE VIEWCONTROLLERS DEALLOCATING O
 ```
 override func viewDidLoad() {
     super.viewDidLoad()
-    
+    //Remove all MOMO NOTIFICATION by self
+    NotificationCenter.default.removeObserver(self, name: "NoficationCenterTokenReceived", object: nil)
+    //Regis MOMO NOTIFICATION by self
     NotificationCenter.default.addObserver(self, selector: #selector(self.NoficationCenterTokenReceived), name:NSNotification.Name(rawValue: "NoficationCenterTokenReceived"), object: nil)
 //        NotificationCenter.default.addObserver(self, selector: #selector(self.NoficationCenterTokenReceived), name:NSNotification.Name(rawValue: "NoficationCenterTokenReceivedUri"), object: nil)
 
